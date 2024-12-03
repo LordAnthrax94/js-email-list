@@ -1,0 +1,19 @@
+*
+
+.d-flex{
+  display: flex;
+}
+
+
+.d-none{
+  display: none;
+}
+
+
+
+.emailbox{
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: greenyellow;
+}

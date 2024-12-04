@@ -3,9 +3,10 @@ console.log('ajax');
 
 const endpoint = 'https://flynn.boolean.careers/exercises/api/random/mail';
 
-const emailrandom = [];
+let emailrandom = [];
 document.addEventListener('click', function(){
-for(let i = 0; i < 10; i++){
+  emailrandom = [];
+  for(let i = 0; i < 10; i++){
   //  fetch(endpoint)
   // .then(response => response.json())
   // .then(data => {          
